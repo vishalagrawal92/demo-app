@@ -26,5 +26,5 @@ public class HelloControllerTests {
         mvc.perform(MockMvcRequestBuilders.get("/")
                 .contentType(MediaType.APPLICATION_JSON))
                 .andExpect(MockMvcResultMatchers.status().is2xxSuccessful())
-                .andExpect(MockMvcResultMatchers.content().string("Hello World kc!"));
+                .andExpect(MockMvcResultMatchers.content().string("Hello World Health Edge participants!"));
     }}
